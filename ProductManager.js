@@ -97,16 +97,5 @@ class ProductManager {
     }
 
 }
-
-let ManagerProduct = new ProductManager();
-
-    // await ManagerProduct.addProduct ("Yerba", "De palo", 912, "yerbabrava", "s", 2606);
-    // console.log (await ManagerProduct.getProducts ()) 
-
-    //    await ManagerProduct.addProduct ("Chupetin", "Rojo", 912, "Caramelo", "A", 2606);
-    //   console.log (await ManagerProduct.getProducts ())
-
-    // await ManagerProduct.deleteProduct (1);
-
-      await ManagerProduct.updateProduct (2, {"id":2,"title":"Yerba","description":"De palo","price":912,"thumbnail":"yerbabrava","code":"s","stock":1500})
+ export default {ProductManager}
 
